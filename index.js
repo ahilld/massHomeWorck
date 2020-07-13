@@ -29,4 +29,12 @@ console.log(array);
 let smallArr = [1, 2, 3];
 
 let totalArr = smallArr.push( 4, 5, 6 );
-console.log(totalArr);
+console.log(smallArr);
+
+/**
+ * @description - Дан массив [1, 2, 3]. Добавьте ему в начало элементы 4, 5, 6
+ */
+
+let smallArr2 = [1, 2, 3];
+let totalArr2 = smallArr2.unshift(4, 5, 6 );
+console.log(smallArr2);
