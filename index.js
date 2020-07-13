@@ -93,8 +93,7 @@ console.log(spliceMass);
 let spliceMass2 = [1, 2, 3, 4, 5];
 let spliced2 = spliceMass2.splice(0, 1);
 spliced2 = spliceMass2.splice(3, 1);
-let spliceMass3 = spliceMass2;
-console.log(spliceMass3);
+console.log(spliceMass2);
 
 /**
  *
@@ -104,3 +103,13 @@ console.log(spliceMass3);
 let spliceMass4 = [1, 2, 3, 4, 5];
 let spliced3 = spliceMass4.splice(3, 0, 'a', 'b', 'c');
 console.log(spliceMass4);
+
+/**
+ * @description -Дан массив [1, 2, 3, 4, 5]. С помощью метода splice сделайте из него массив [1, 'a', 'b', 2, 3, 4, 'c', 5, 'e'].
+ */
+
+let spliceMass5 = [1, 2, 3, 4, 5];
+let spliced4 = spliceMass5.splice(1, 0, 'a', 'b');
+    spliced4 = spliceMass5.splice(6, 0, 'c');
+    spliced4 = spliceMass5.splice(8, 0, 'e');
+console.log(spliceMass5);
