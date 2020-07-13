@@ -49,3 +49,14 @@ let shifted = shiftMass.shift();
 console.log(shifted);
 console.log(shiftMass);
 
+/**
+ * @description - Дан массив ['js', 'css', 'jq']. Выведите на экран последний элемент и удалите его.
+ *
+ */
+
+
+let popMass = ['js', 'css', 'jq'];
+let popped = popMass.pop();
+console.log(popped);
+console.log(popMass);
+
