@@ -16,7 +16,17 @@ console.log(arrRes);
  *
  */
 
-const array = [1,2,3]
+const array = [1, 2, 3]
 const reversed = array.reverse()
 console.log(reversed);
 console.log(array);
+
+/**
+ * @description -  Дан массив [1, 2, 3]. Добавьте ему в конец элементы 4, 5, 6.
+ *
+ */
+
+let smallArr = [1, 2, 3];
+
+let totalArr = smallArr.push( 4, 5, 6 );
+console.log(totalArr);
