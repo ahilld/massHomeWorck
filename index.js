@@ -38,3 +38,14 @@ console.log(smallArr);
 let smallArr2 = [1, 2, 3];
 let totalArr2 = smallArr2.unshift(4, 5, 6 );
 console.log(smallArr2);
+
+/**
+ * @description - Дан массив ['js', 'css', 'jq']. Выведите на экран первый элемент и удалите его.
+ *
+ */
+
+let shiftMass = ['js', 'css', 'jq'];
+let shifted = shiftMass.shift();
+console.log(shifted);
+console.log(shiftMass);
+
