@@ -96,3 +96,11 @@ spliced2 = spliceMass2.splice(3, 1);
 let spliceMass3 = spliceMass2;
 console.log(spliceMass3);
 
+/**
+ *
+ * @description - Дан массив [1, 2, 3, 4, 5]. С помощью метода splice сделайте из него массив [1, 2, 3, 'a', 'b', 'c', 4, 5].
+ */
+
+let spliceMass4 = [1, 2, 3, 4, 5];
+let spliced3 = spliceMass4.splice(3, 0, 'a', 'b', 'c');
+console.log(spliceMass4);
