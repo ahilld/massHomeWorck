@@ -67,3 +67,11 @@ console.log(popMass);
 
 let sliceMass = [1, 2, 3, 4, 5, 6];
 console.log(sliceMass.slice(0, 3));
+
+/**
+ *
+ * @description - Дан массив [1, 2, 3, 4, 5]. С помощью метода slice запишите в новый элементы [4, 5].
+ */
+
+let sliceMass2 = [1, 2, 3, 4, 5, 6];
+console.log(sliceMass2.slice(3, 5));
