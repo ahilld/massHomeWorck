@@ -75,3 +75,13 @@ console.log(sliceMass.slice(0, 3));
 
 let sliceMass2 = [1, 2, 3, 4, 5, 6];
 console.log(sliceMass2.slice(3, 5));
+
+/**
+ *
+ * @description -  Дан массив [1, 2, 3, 4, 5]. С помощью метода splice преобразуйте массив в [1, 4, 5].
+ */
+
+let spliceMass = [1, 2, 3, 4, 5];
+let spliced1 = spliceMass.splice(1, 2);
+console.log(spliceMass);
+
