@@ -113,3 +113,8 @@ let spliced4 = spliceMass5.splice(1, 0, 'a', 'b');
     spliced4 = spliceMass5.splice(6, 0, 'c');
     spliced4 = spliceMass5.splice(8, 0, 'e');
 console.log(spliceMass5);
+
+let mass = [3,4,1,2,7];
+
+mass.sort();
+console.log(mass);
