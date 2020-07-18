@@ -114,7 +114,22 @@ let spliced4 = spliceMass5.splice(1, 0, 'a', 'b');
     spliced4 = spliceMass5.splice(8, 0, 'e');
 console.log(spliceMass5);
 
-let mass = [3,4,1,2,7];
 
+
+/**
+ * @description -  Дан массив [3, 4, 1, 2, 7]. Отсортируйте его.
+ *
+ */
+let mass = [3,4,1,2,7];
 mass.sort();
 console.log(mass);
+
+/**
+ * @description - Дан объект {js:'test', jq: 'hello', css: 'world'}. Получите массив его ключей
+ *
+ */
+
+
+let obj =  {js:'test', jq: 'hello', css: 'world'};
+ let objKeys = Object.keys(obj);
+ console.log(objKeys);
